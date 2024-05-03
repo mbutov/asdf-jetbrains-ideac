@@ -2,12 +2,10 @@
 
 set -euo pipefail
 
-# TODO replace tool name in two lines below
-TOOL_NAME="idea"
+TOOL_NAME="ideac"
 TOOL_TEST="bin/idea.sh --version"
 
-# TODO replace product code, one can find it in https://data.services.jetbrains.com/products
-JETBRAINS_PRODUCT_CODE="..."
+JETBRAINS_PRODUCT_CODE="IIC"
 
 SHIMS_DIR_NAME=shims
 

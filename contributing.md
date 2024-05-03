@@ -5,7 +5,7 @@ Testing Locally:
 ```shell
 asdf plugin test <plugin-name> <plugin-url> [--asdf-tool-version <version>] [--asdf-plugin-gitref <git-ref>] [test-command*]
 
-asdf plugin test PRODUCT https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT.git "PRODUCT --version"
+asdf plugin test ideac https://github.com/mbutov/asdf-jetbrains-ideac.git "ideac --version"
 ```
 
 Tests are automatically run in GitHub Actions on push and PR.

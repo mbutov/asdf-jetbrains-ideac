@@ -1,20 +1,6 @@
-TODO remove section below
+# asdf-jetbrains-ideac [![Build](https://github.com/mbutov/asdf-jetbrains-ideac/actions/workflows/build.yml/badge.svg)](https://github.com/mbutov/asdf-jetbrains-ideac/actions/workflows/build.yml) [![Lint](https://github.com/mbutov/asdf-jetbrains-ideac/actions/workflows/lint.yml/badge.svg)](https://github.com/mbutov/asdf-jetbrains-ideac/actions/workflows/lint.yml)
 
-Template repository for ASDF plugin for a JetBrains product.
-
-# How to use this template
-
-Create a repository from this template.
-Check and edit TODOs.
-See https://github.com/mbutov/asdf-jetbrains-idea as an example.
-
-TODO replace below
-- GITHUB_USER - github username
-- PRODUCT - JetBrains product tool name
-
-# asdf-jetbrains-PRODUCT [![Build](https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT/actions/workflows/build.yml/badge.svg)](https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT/actions/workflows/build.yml) [![Lint](https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT/actions/workflows/lint.yml/badge.svg)](https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT/actions/workflows/lint.yml)
-
-[jetbrains-PRODUCT](https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT) plugin for the [asdf version manager](https://asdf-vm.com).
+[ideac](https://github.com/mbutov/asdf-jetbrains-ideac) plugin for the [asdf version manager](https://asdf-vm.com).
 
 # Contents
 
@@ -33,25 +19,25 @@ TODO replace below
 Plugin:
 
 ```shell
-asdf plugin add PRODUCT
+asdf plugin add ideac
 # or
-asdf plugin add PRODUCT https://github.com/GITHUB_USER/asdf-jetbrains-PRODUCT.git
+asdf plugin add ideac https://github.com/mbutov/asdf-jetbrains-ideac.git
 ```
 
-PRODUCT:
+ideac:
 
 ```shell
 # Show all installable versions
-asdf list-all PRODUCT
+asdf list-all ideac
 
 # Install specific version
-asdf install PRODUCT latest
+asdf install ideac latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global PRODUCT latest
+asdf global ideac latest
 
-# Now PRODUCT command is available
-PRODUCT --version
+# Now ideac command is available
+ideac --version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -65,4 +51,4 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [GITHUB_USER](https://github.com/GITHUB_USER/)
+See [LICENSE](LICENSE) © [mbutov](https://github.com/mbutov/)
